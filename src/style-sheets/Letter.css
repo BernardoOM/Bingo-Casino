@@ -1,0 +1,13 @@
+.Letter-container {
+   width: 100%;
+   width: 124px;
+   height: 87px;
+   margin: 3px 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 50px;
+   user-select: none;
+   font-weight: 900;
+}

@@ -1,0 +1,77 @@
+.Content-letter {
+   width: 80px;
+   height: 80px;
+   font-size: 3rem;
+   margin: 0.3125em;
+   padding: 0.3125em;
+   border-bottom: 4px solid #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #f4f4f4;
+   font-weight: 900;
+}
+
+.ContentResult-container {
+   width: 100%;
+   width: 80px;
+   height: 80px;
+   font-size: 2.2rem;
+   margin: 0.3125em;
+   padding: 0.3125em;
+   background: rgb(65, 63, 66);
+   border: 2px solid #fff;
+   border-radius: 0.625rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #f4f4f4;
+   font-weight: 900;
+   user-select: none;
+   letter-spacing: 0.1em;
+   animation: sizeBox 1s ease-in 0.5s 1 backwards;
+}
+
+@keyframes sizeBox {
+   from {
+      width: 82px;
+      height: 82px;
+      background-color: #1c3879;
+   }
+   to {
+      width: 80px;
+      height: 80px;
+      background-color: rgb(65, 63, 66);
+      transform: rotate(360deg);
+   }
+}
+
+@media (min-width: 1024px) {
+   .Content-letter {
+      width: 40px;
+      height: 40px;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #fff;
+   }
+
+   .ContentResult-container {
+      width: 100%;
+      font-size: 1rem;
+      width: 40px;
+      height: 40px;
+   }
+
+   @keyframes sizeBox {
+      from {
+         width: 42px;
+         height: 42px;
+         background-color: #1c3879;
+      }
+      to {
+         width: 40px;
+         height: 40px;
+         background-color: rgb(65, 63, 66);
+         transform: rotate(360deg);
+      }
+   }
+}

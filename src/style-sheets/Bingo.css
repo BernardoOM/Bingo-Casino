@@ -1,0 +1,50 @@
+.Bingo-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 720px;
+   min-height: 630px;
+   padding-top: 20px;
+}
+
+.Bingo-buttons-container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Bingo-buttons-container > button {
+   width: 140px;
+   height: 40px;
+   margin-right: 0.625em;
+   padding: 0.3125em;
+   font-size: 1.125rem;
+   background-color: #1c3879;
+   color: #fff;
+   font-weight: 400;
+   border: 2px solid #fff;
+   border-radius: 0.625em;
+   cursor: pointer;
+   user-select: none;
+   letter-spacing: 0.1em;
+}
+
+.Bingo-buttons-container > button:hover {
+   background-color: #607eaa;
+}
+
+.BingoCard-main-container {
+   width: 100%;
+   margin-top: 20px;
+   width: 720px;
+   height: 630px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-color: #607eaa;
+   border: 3px solid #fff;
+   border-radius: 20px;
+}

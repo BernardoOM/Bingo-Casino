@@ -1,0 +1,94 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-family: "Blinker", sans-serif;
+   font-weight: 400;
+   font-size: 1rem;
+   background-color: #f9f5eb;
+   color: #1c3879;
+}
+
+.App-container {
+   width: 90%;
+   min-width: 375px;
+   height: 170vh;
+   margin: 0 auto;
+   padding: 1em;
+   background-color: #eae3d2;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.App-title {
+   font-size: 2.25rem;
+   font-weight: 700;
+   margin: 0;
+   letter-spacing: 0.25em;
+}
+
+.App-content {
+   width: 100%;
+   margin: 1em auto 0 auto;
+   padding: 1em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.App-message {
+   font-size: 1.5rem;
+   font-weight: 700;
+   margin: 0;
+   letter-spacing: 0.15em;
+}
+
+.App-letters-container {
+   width: 80%;
+   min-width: 360px;
+   margin-top: 6em;
+   padding: 1em;
+   background-color: #607eaa;
+   border: 3px solid #fff;
+   border-radius: 0.625em;
+   display: flex;
+   justify-content: space-evenly;
+   order: 1;
+}
+
+.App-letter-container {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.App-bingo-container {
+   width: 70%;
+   padding: 1em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+@media (min-width: 1024px) {
+   .App-container {
+      max-width: 1440px;
+      height: 120vh;
+   }
+   .App-content {
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: flex-start;
+   }
+
+   .App-letters-container {
+      width: 25%;
+      justify-content: space-evenly;
+      order: 0;
+   }
+}

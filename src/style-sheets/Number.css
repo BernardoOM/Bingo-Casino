@@ -1,0 +1,31 @@
+.Number-container {
+   width: 100%;
+   width: 124px;
+   height: 87px;
+   margin: 3px 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #f4f4f4;
+   font-size: 3.125rem;
+   background-color: #1c3879;
+   border: 3px solid #fff;
+   border-radius: 0.625rem;
+   user-select: none;
+   cursor: pointer;
+   font-weight: 900;
+   letter-spacing: 0.1em;
+}
+
+.Number-container:hover {
+   background-color: #a66cff;
+}
+
+.Number-container.winner {
+   background-color: rgb(65, 63, 66);
+   cursor: not-allowed;
+}
+
+.selected {
+   background-color: #5bb318;
+}
